@@ -3,23 +3,55 @@ owner: apercallc
 repo: apercallc-upptime
 
 sites:
-  - name: Google
+  - name: Aperca LLC Website
     url: https://apercallc.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /apercallc-upptime
+  # cname: status.apercallc.com
+  baseUrl: /apercallc-upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Aperca LLC Status
+  introTitle: "**Aperca LLC** System Status & Service Monitoring"
+  introMessage: Real-time monitoring and status information for all Aperca LLC services and infrastructure. This page provides live updates on system performance, uptime statistics, and any ongoing incidents affecting our services.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Aperca LLC
+      href: https://apercallc.com
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+# Professional notification settings (uncomment and configure as needed)
+# notifications:
+#   - type: slack
+#     webhook: $SLACK_WEBHOOK_URL
+#   - type: email
+#     to: admin@apercallc.com
+#   - type: discord
+#     webhook: $DISCORD_WEBHOOK_URL
+
+# Assign issues to team members
+# assignees:
+#   - apercallc
+
+# Custom user agent for monitoring requests
+user-agent: Aperca LLC Monitoring
+
+# Response time degradation thresholds
+commitPrefixStatusChange: "🚨 [ALERT]"
+commitPrefixResponseTimeGraph: "📊 [MONITOR]"
+
+# Monitoring intervals
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 23 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"

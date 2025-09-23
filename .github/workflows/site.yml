@@ -25,7 +25,6 @@ jobs:
   release:
     name: Build and deploy site
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,6 +42,6 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAT || github.token }}
           publish_dir: "site/status-page/__sapper__/export/"
-          force_orphan: "false"
+          force_orphan: false
           user_name: "Upptime Bot"
           user_email: "73812536+upptime-bot@users.noreply.github.com"
