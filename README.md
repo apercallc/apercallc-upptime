@@ -33,7 +33,7 @@ With [Upptime](https://upptime.js.org), we maintain a comprehensive uptime monit
 If you experience any issues with our services that are not reflected on this status page, please:
 
 1. Check our [status page](https://apercallc.github.io/apercallc-upptime) for current incidents
-2. Report issues through our [support channels](https://apercallc.com/contact)
+2. Report issues through our [support channels](https://apercallc.com/contact.php)
 3. Follow us for real-time updates during maintenance windows
 
 ## 📈 Performance Metrics
