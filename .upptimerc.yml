@@ -17,7 +17,7 @@ status-website:
   introMessage: Real-time monitoring and status information for all Aperca LLC services and infrastructure. This page provides live updates on system performance, uptime statistics, and any ongoing incidents affecting our services.
   navbar:
     - title: Status
-      href: /
+      href: https://apercallc.github.io/apercallc-upptime/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
     - title: Aperca LLC
