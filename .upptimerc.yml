@@ -5,6 +5,12 @@ repo: apercallc-upptime
 sites:
   - name: Aperca LLC Website
     url: https://apercallc.com
+  - name: Hostinger
+    url: https://www.hostinger.com/
+  - name: Squarespace
+    url: https://www.squarespace.com/
+  - name: Imgur
+    url: https://imgur.com/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
