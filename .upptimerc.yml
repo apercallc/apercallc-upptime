@@ -35,9 +35,9 @@ status-website:
 # Professional notification settings (uncomment and configure as needed)
 notifications:
   - type: slack
-    webhook: $SLACK_WEBHOOK_URL
-  - type: email
-    to: support@apercallc.com
+    # Slack incoming webhook URL needs to be added as a repository secret named SLACK_WEBHOOK_URL
+    # Upptime expects the key 'url' (not 'webhook') for Slack notifications
+    url: $SLACK_WEBHOOK_URL
 #   - type: discord
 #     webhook: $DISCORD_WEBHOOK_URL
 
