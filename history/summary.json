@@ -4,7 +4,7 @@
     "url": "https://apercallc.com",
     "icon": "https://icons.duckduckgo.com/ip3/apercallc.com.ico",
     "slug": "aperca-llc-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 362,
     "timeDay": 468,
-    "timeWeek": 383,
+    "timeWeek": 375,
     "timeMonth": 359,
     "timeYear": 362,
     "dailyMinutesDown": {}
