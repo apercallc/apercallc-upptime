@@ -13,7 +13,7 @@
     "time": 440,
     "timeDay": 920,
     "timeWeek": 414,
-    "timeMonth": 505,
+    "timeMonth": 503,
     "timeYear": 440,
     "dailyMinutesDown": {}
   },
@@ -22,7 +22,7 @@
     "url": "https://www.hostinger.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.hostinger.com.ico",
     "slug": "hostinger",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
